@@ -7,6 +7,10 @@ body{
     background-color: burlywood;
 }
 
+.navbar-container{
+    background-color: rgb(189, 155, 110);
+}
+
 .main-title-container{
     height: 500px;
     display: flex;
