@@ -7,13 +7,32 @@ body{
     background-color: burlywood;
 }
 
+.main-title-container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/background_dessert.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-title{
+    font-size: 60px;
+    color: rgb(108, 80, 27);
+    background-color: rgba(255, 255, 255, 50%);
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
 .carousel_container{
     background-color: blanchedalmond;
     padding: 20px;
 }
 
 .baked-goods-carousel{
-    
-    width: 700px;
+    width:75vh;
     margin: 0 auto;
 }
