@@ -1,22 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project_1</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header>
-        
+      <nav>
+        <a href="#gallery">Gallery</a>
+        <a href="#about-us">About Us</a>
+        <a href="#form">Contact Us</a>
+      </nav>
     </header>
     <main>
-        
+      <h1 class="main-title">Sunny's Bakery</h1>
+      <section class = "carousel_container">
+        <div id="carousel_1" class="carousel slide baked-goods-carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/baked_desert_01.png"
+                class="d-block w-100"
+                alt="cookie with white icing"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/baked_desert_02.png"
+                class="d-block w-100"
+                alt="pastry topped with powdered sugar"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/baked_desert_03.png"
+                class="d-block w-100"
+                alt="cookie with walnuts decorated on top"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel_1"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel_1"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section id="gallery" class=""></section>
+      <section id="about-us" class=""></section>
+      <section id="form" class=""></section>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</body>
+  </body>
 </html>

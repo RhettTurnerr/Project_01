@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.carousel_container{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.baked-goods-carousel{
+    
+    width: 700px;
+    margin: 0 auto;
+}
