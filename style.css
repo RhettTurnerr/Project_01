@@ -11,32 +11,40 @@ body{
     background-color: rgb(189, 155, 110);
 }
 
-.main-title-container{
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main{
     background-image: url(./images/background_dessert.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+main>*{
+    margin: 0 15px;
+}
 
-.main-title{
-    font-size: 60px;
-    color: rgb(108, 80, 27);
-    background-color: rgba(255, 255, 255, 50%);
-    border-radius: 20px;
-    padding: 15px;
+.main-title-container{
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
+.main-title{
+    font-size: 7vw;
+    color: rgb(108, 80, 27);
+    background-color: rgba(255, 235, 205, 0.75);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
 .carousel_container{
-    background-color: blanchedalmond;
-    padding: 20px;
+    background-color: rgba(255, 235, 205, 0.75);
+    
+    padding: 20px 0;
 }
 
 .baked-goods-carousel{
-    width:75vh;
+    width:75%;
     margin: 0 auto;
 }
