@@ -1,55 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: burlywood;
+body {
+  background-color: burlywood;
 }
 
-.navbar-container{
-    background-color: rgb(189, 155, 110);
+.navbar-container {
+  background-color: rgb(189, 155, 110);
 }
 
-main{
-    background-image: url(./images/background_dessert.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+main {
+  background-image: url(./images/background_dessert.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-main>*{
-    margin: 0 15px;
-}
-
-.main-title-container{
-    height: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+main > * {
+  margin: 0 15px;
 }
 
-.main-title{
-    font-size: 7vw;
-    color: rgb(108, 80, 27);
-    background-color: rgba(255, 235, 205, 0.75);
-    border-radius: 20px;
-    padding: 15px;
-    text-align: center;
+.main-title-container {
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.carousel_container{
-    background-color: rgba(255, 235, 205, 0.75);
-    padding: 20px 0;
+.main-title {
+  font-size: 7vw;
+  color: rgb(108, 80, 27);
+  background-color: rgba(255, 235, 205, 0.75);
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
 }
 
-.carousel_heading{
-    font-size: 4vw;
-    color: rgb(108, 80, 27);
-    text-align: center;
+.carousel_container {
+  background-color: rgba(255, 235, 205, 0.75);
+  padding: 20px 0;
 }
 
-.baked-goods-carousel{
-    width:75%;
-    margin: 0 auto;
+.carousel_heading {
+  font-size: 4vw;
+  color: rgb(108, 80, 27);
+  text-align: center;
+}
+
+.baked-goods-carousel {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.about-us-heading {
+  font-size: 4vw;
+  color: rgb(108, 80, 27);
+  text-align: center;
+  border: solid black;
+}
+
+.about-us-containter {
+  background-color: rgba(255, 235, 205, 0.75);
+  padding: 15px;
 }
