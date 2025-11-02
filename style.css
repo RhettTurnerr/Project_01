@@ -53,7 +53,8 @@ main > * {
   margin: 0 auto;
 }
 
-.about-us-container {
+.about-us-container,
+.form-container {
   background-color: rgba(255, 235, 205, 0.75);
   padding: 15px;
 }
@@ -64,6 +65,12 @@ main > * {
   text-align: center;
 }
 
-.about-us-container>p {
+.about-us-container > p {
   font-size: 2vw;
+  text-align: center;
+}
+
+.form-bg{
+  background-color: rgba(255, 255, 255, 0.799);
+  border: solid black;
 }
