@@ -52,9 +52,6 @@
                   <li>
                     <a class="dropdown-item" href="#form">Leave a Review</a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
                 </ul>
               </li>
             </ul>
@@ -140,31 +137,49 @@
           </p>
         </div>
       </section>
+
+      <hr class="border-5" />
+
       <section id="form" class="form-container">
         <h2 class="form-heading">Leave a Review</h2>
-        <form class = "form_1" action="">
-          
-          <div class="mb-3">
-            <label for="email-input" class="form-label"
-              >Email address</label
-            >
+        <form class="form_1" action="" method="get">
+          <div class="mb-3 input-style">
+            <label for="email-input" class="form-label" >Email address</label>
             <input
               type="email"
               class="form-control form-bg"
               id="email-input"
               placeholder="name@example.com"
+              required
             />
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Example textarea</label
+
+          <div class="mb-3 range-container input-style">
+            <label for="review-range" class="form-label"
+              >How would you rate your experience?</label
+            >
+            <input
+              type="range"
+              id="review-range"
+              class="form-range"
+              min="0"
+              max="10"
+              required
+            />
+          </div>
+
+          <div class="mb-3 input-style">
+            <label for="FormControlTextarea1" class="form-label"
+              >How would you describe this experience?</label
             >
             <textarea
               class="form-control form-bg"
-              id="exampleFormControlTextarea1"
+              id="FormControlTextarea1"
               rows="3"
             ></textarea>
           </div>
+          <button class="btn btn-light" type="submit">Submit</button>
+          <button class="btn btn-light" type="reset">Clear</button>
         </form>
       </section>
     </main>
