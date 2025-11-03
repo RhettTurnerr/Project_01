@@ -12,6 +12,7 @@ Technologies:
 -HTML
 -CSS
 -Bootstrap v5.3
+-pexels images
 
 Future improvement:
 -add Delivery feature with a map
