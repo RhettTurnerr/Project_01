@@ -53,17 +53,47 @@ main > * {
   margin: 0 auto;
 }
 
-.about-us-container {
-  background-color: rgba(255, 235, 205, 0.75);
-  padding: 15px;
-}
-
 .about-us-heading {
   font-size: 4vw;
   color: rgb(108, 80, 27);
   text-align: center;
 }
 
-.about-us-container>p {
+.about-us-container > p {
+  font-size: 2vw;
+  text-align: center;
+}
+
+.form-heading{
+  font-size: 4vw;
+  color: rgb(108, 80, 27);
+}
+
+.form-container{
+  font-size: 2.5vw;
+  color: rgb(108, 80, 27);
+  text-align: center;
+}
+
+.form-bg{
+  background-color: rgba(255, 255, 255, 0.799);
+}
+
+.range-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-range{
+  width: 50vw;
+}
+
+.input-style>input{
+  font-size: 2vw;
+}
+
+.input-style>textarea{
   font-size: 2vw;
 }
