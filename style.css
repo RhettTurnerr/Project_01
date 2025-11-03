@@ -53,12 +53,6 @@ main > * {
   margin: 0 auto;
 }
 
-.about-us-container,
-.form-container {
-  background-color: rgba(255, 235, 205, 0.75);
-  padding: 15px;
-}
-
 .about-us-heading {
   font-size: 4vw;
   color: rgb(108, 80, 27);
