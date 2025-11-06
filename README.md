@@ -9,7 +9,7 @@ Bakery's website containing information about the bakery and images of the diffe
 * One user will click the delivery button in the navbar. They will input their address and email. They will choose from the list of baked goods to be delivered.
 
 ## Wireframes
-![Wireframe](https://github.com/RhettTurnerr/Project_01/blob/exp1/images/UTA_project1_wireframe.jpg?raw=true)
+![Wireframe](https://github.com/RhettTurnerr/Project_01/blob/main/images/UTA_project1_wireframe.jpg)
 
 ## Funtionality:
 * Navbar containing links to the different sections
