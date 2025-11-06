@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_1</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Project_1/about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="form" class="form-container">
+        <h2 class="form-heading">Leave a Review</h2>
+        <form class="form_1" action="" method="get">
+          <div class="mb-3 input-style">
+            <label for="email-input" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control form-bg"
+              id="email-input"
+              placeholder="name@example.com"
+              name="email-input"
+              required
+            />
+          </div>
+
+          <div class="mb-3 range-container input-style">
+            <label for="review-range" class="form-label"
+              >How would you rate your experience?</label
+            >
+            <input
+              type="range"
+              id="review-range"
+              class="form-range"
+              name="rate-input"
+              min="0"
+              max="10"
+              required
+            />
+          </div>
+
+          <div class="mb-3 input-style">
+            <label for="FormControlTextarea1" class="form-label"
+              >How would you describe this experience?</label
+            >
+            <textarea
+              class="form-control form-bg"
+              id="FormControlTextarea1"
+              name="text-input"
+              rows="3"
+            ></textarea>
+          </div>
+          <button class="btn btn-light" type="submit">Submit</button>
+          <button class="btn btn-light" type="reset">Clear</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

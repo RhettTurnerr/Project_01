@@ -14,7 +14,7 @@
     <header>
       <nav class="navbar navbar-expand-sm navbar-container">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="./index.html">Navbar</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -29,30 +29,21 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about-us">About Us</a>
+                <a class="nav-link" href="/Project_1/about-us.html">About Us</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Contact Us
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#form">Delivery</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#form">Leave a Review</a>
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact-us.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -70,21 +61,21 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="./images/baked_desert_01.png"
+                src="./images/baked_dessert_01.png"
                 class="d-block w-100"
                 alt="cookie with white icing"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="./images/baked_desert_02.png"
+                src="./images/baked_dessert_02.png"
                 class="d-block w-100"
                 alt="pastry topped with powdered sugar"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="./images/baked_desert_03.png"
+                src="./images/baked_dessert_03.png"
                 class="d-block w-100"
                 alt="cookie with walnuts decorated on top"
               />
@@ -109,81 +100,26 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </section>
-
-      <hr class="border-5" />
-
-      <section id="about-us" class="">
-        <div class="about-us-container">
-          <h2 class="about-us-heading">About Us</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
-            temporibus odit ratione adipisci voluptates? Ipsa saepe sed
-            laudantium ipsam iste ad facere error, optio quia quam, sit
-            voluptatem aspernatur assumenda, non doloremque? Omnis delectus
-            aperiam, temporibus modi optio eos eaque sunt aspernatur provident
-            iste? Culpa sunt vero quae nulla tenetur nemo nisi temporibus, in
-            dicta exercitationem perspiciatis ipsam aut beatae officiis vitae,
-            modi et quisquam! Illum aut quod fugiat temporibus culpa rerum eos!
-            Nesciunt amet debitis ab quasi error repudiandae alias repellat
-            veritatis obcaecati cum, voluptatibus totam velit vitae molestias
-            illo. Minus illo consequatur voluptates temporibus illum tempora
-            cupiditate praesentium. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Dolorum tempora quos soluta asperiores quam quae?
-            Maxime similique officiis architecto placeat, amet tempore tenetur
-            voluptatibus possimus nulla quas id a aliquid porro quos asperiores
-            impedit accusamus deleniti. Unde obcaecati magni voluptatibus sint
-            nemo aliquid omnis quia ducimus, non laudantium culpa neque!
-          </p>
+        <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3 text-center justify-content-center">
+          <div class="col">
+            <div class="p-3"><img src="./images/baked_dessert_04.png" alt="" class="img-fluid"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="./images/baked_dessert_03.png" alt="" class="img-fluid"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="./images/baked_dessert_08.png" alt="" class="img-fluid"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="./images/baked_dessert_07.png" alt="" class="img-fluid"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="./images/baked_dessert_01.png" alt="" class="img-fluid"></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="./images/baked_dessert_02.png" alt="" class="img-fluid"></div>
+          </div>
         </div>
-      </section>
-
-      <hr class="border-5" />
-
-      <section id="form" class="form-container">
-        <h2 class="form-heading">Leave a Review</h2>
-        <form class="form_1" action="" method="get">
-          <div class="mb-3 input-style">
-            <label for="email-input" class="form-label" >Email address</label>
-            <input
-              type="email"
-              class="form-control form-bg"
-              id="email-input"
-              placeholder="name@example.com"
-              name = "email-input"
-              required
-            />
-          </div>
-
-          <div class="mb-3 range-container input-style">
-            <label for="review-range" class="form-label"
-              >How would you rate your experience?</label
-            >
-            <input
-              type="range"
-              id="review-range"
-              class="form-range"
-              name = "rate-input"
-              min="0"
-              max="10"
-              required
-            />
-          </div>
-
-          <div class="mb-3 input-style">
-            <label for="FormControlTextarea1" class="form-label"
-              >How would you describe this experience?</label
-            >
-            <textarea
-              class="form-control form-bg"
-              id="FormControlTextarea1"
-              name = "text-input"
-              rows="3"
-            ></textarea>
-          </div>
-          <button class="btn btn-light" type="submit">Submit</button>
-          <button class="btn btn-light" type="reset">Clear</button>
-        </form>
       </section>
     </main>
     <footer></footer>
